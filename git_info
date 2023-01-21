@@ -1,0 +1,45 @@
+Value
+4Yo8Q~ITpcS~FY6pWJhp.MG56SKYkbTyJqNYlaCW
+
+Secret ID
+958002cd-ebca-41ee-b583-bdae038bf758
+
+Application (client) ID
+126a5985-a2fa-4743-8b78-c1a7fe6380fc
+
+Directory (Tenant) ID
+72e7562f-001c-4a0e-89c0-990eea4b150b
+
+Object ID
+929e7a49-89ad-4ffa-add8-f74654cd6eed
+
+
+secret2
+id ac9b7ad5-5ddc-4bfc-997d-c497fd570c95
+value dUL8Q~3At6mPwcyUkXzZMRW4IkoHlEqjvD_7Icge
+
+pw
+rxndxfw23wva5y4e4hlgxn4nlaxmk4qrvfpb7prj5czyar7tx6ca
+
+
+
+PS /home/cj> az ad sp create-for-rbac --name "githubactionazure" --role contributor --scopes /subscriptions/f0b9ad03-d225-4217-9bfc-4b0773b2650e/resourceGroups/TestRG01 --sdk-auth
+Option '--sdk-auth' has been deprecated and will be removed in a future release.
+Found an existing application instance: (id) 68e2625f-d269-469b-904c-0ac68d70390a. We will patch it.
+Creating 'contributor' role assignment under scope '/subscriptions/f0b9ad03-d225-4217-9bfc-4b0773b2650e/resourceGroups/TestRG01'
+The output includes credentials that you must protect. Be sure that you do not include these credentials in your code or check the credentials into your source control. For more information, see https://aka.ms/azadsp-cli
+{
+  "clientId": "907e4583-3036-450e-a865-54aad28e920c",
+  "clientSecret": "g-J8Q~iH5ZS2gC4gZSS~vZ9ru1R~rpyClqOdQbkQ",
+  "subscriptionId": "f0b9ad03-d225-4217-9bfc-4b0773b2650e",
+  "tenantId": "72e7562f-001c-4a0e-89c0-990eea4b150b",
+  "activeDirectoryEndpointUrl": "https://login.microsoftonline.com",
+  "resourceManagerEndpointUrl": "https://management.azure.com/",
+  "activeDirectoryGraphResourceId": "https://graph.windows.net/",
+  "sqlManagementEndpointUrl": "https://management.core.windows.net:8443/",
+  "galleryEndpointUrl": "https://gallery.azure.com/",
+  "managementEndpointUrl": "https://management.core.windows.net/"
+}
+PS /home/cj> 
+
+
