@@ -1,0 +1,5 @@
+"AadClientId": "126a5985-a2fa-4743-8b78-c1a7fe6380fc",
+"AadSecret": "dUL8Q~3At6mPwcyUkXzZMRW4IkoHlEqjvD_7Icge",
+"AadTenantDomain": "chijungjunggmail.onmicrosoft.com",
+"AadTenantId": "72e7562f-001c-4a0e-89c0-990eea4b150b",
+
